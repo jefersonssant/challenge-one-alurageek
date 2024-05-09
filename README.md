@@ -6,7 +6,7 @@ Desafio do Oracle Next Education + Alura: lojinha geek, do lado esquerdo estão 
 ## Dependências 
 `json-server`
 ## Imagem
-![Captura de tela 2024-05-08 162558](https://github.com/jefersonssant/challenge-one-alurageek/assets/133176621/f0fcacaa-e49c-4d25-aa3c-f696f75698e9)
+![Captura de tela 2024-05-08 162558](https://github.com/jefersonssant/challenge-one-alurageek/assets/133176621/20de9e36-605c-4552-8fc1-3d1d7712d645)
 ## Funcionalidades
 * Inserir novos produtos, onde em cada campo você vai adicionar nome do produto, preço e URL da imgem, o preço será convertido para dólar;
 * Botão de enviar para adcionar o novo produto e botão de limpar para limpar os dados do formulário de inserção de produtos;
