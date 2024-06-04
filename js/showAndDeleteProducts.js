@@ -27,12 +27,8 @@ function showAndDeleteProducts(image, productName, price, id) {
   const trashBin = productItem.querySelector('.product__shelf__item__bin');
   trashBin.addEventListener('click', async function() {
     const idProduto = this.getAttribute('data-id');
-    try {
       await apiConect.apiDeleteProduct(idProduto);
       productItem.remove();
-    } catch (error) {
-      alert('Erro ao excluir produto:', error);
-    }
   });
 
   return productShelf;

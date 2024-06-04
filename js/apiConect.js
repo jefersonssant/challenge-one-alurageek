@@ -34,7 +34,7 @@ async function apiDeleteProduct(idProduto) {
     }
   })
 } catch(error) {
-  alert('Erro ao excluir produto:', error)
+  alert('Erro ao excluir produto')
 }
 
   return deleteProduct
